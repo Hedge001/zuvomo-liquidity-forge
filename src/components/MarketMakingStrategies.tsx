@@ -66,12 +66,7 @@ const MarketMakingStrategies = () => {
                   </div>
                   
                   {/* Title */}
-                  <h3 className="text-2xl font-bold text-white mb-6 group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:bg-clip-text transition-all duration-300"
-                      style={{
-                        backgroundImage: `linear-gradient(to right, var(--tw-gradient-stops))`,
-                        '--tw-gradient-from': strategy.color.split(' ')[0].replace('from-', ''),
-                        '--tw-gradient-to': strategy.color.split(' ')[2].replace('to-', '')
-                      }}>
+                  <h3 className={`text-2xl font-bold text-white mb-6 group-hover:bg-gradient-to-r group-hover:${strategy.color} group-hover:bg-clip-text group-hover:text-transparent transition-all duration-300`}>
                     {strategy.title}
                   </h3>
                   
