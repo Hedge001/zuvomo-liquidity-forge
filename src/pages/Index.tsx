@@ -1,12 +1,35 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import React from 'react';
+import Hero from '../components/Hero';
+import ProblemStatement from '../components/ProblemStatement';
+import SolutionOverview from '../components/SolutionOverview';
+import HowItWorks from '../components/HowItWorks';
+import CryptoFeatures from '../components/CryptoFeatures';
+import MarketMakingStrategies from '../components/MarketMakingStrategies';
+import Benefits from '../components/Benefits';
+import TechStack from '../components/TechStack';
+import SuccessStories from '../components/SuccessStories';
+import Pricing from '../components/Pricing';
+import Security from '../components/Security';
+import Contact from '../components/Contact';
+import AnimatedBackground from '../components/AnimatedBackground';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-slate-900 text-white relative overflow-hidden">
+      <AnimatedBackground />
+      <Hero />
+      <ProblemStatement />
+      <SolutionOverview />
+      <HowItWorks />
+      <CryptoFeatures />
+      <MarketMakingStrategies />
+      <Benefits />
+      <TechStack />
+      <SuccessStories />
+      <Pricing />
+      <Security />
+      <Contact />
     </div>
   );
 };
