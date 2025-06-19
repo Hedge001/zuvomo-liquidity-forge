@@ -7,16 +7,11 @@ const Hero = () => {
     <section className="min-h-screen bg-gradient-to-b from-white to-gray-50 flex items-center justify-center px-6">
       <div className="max-w-4xl mx-auto text-center">
         <div className="mb-12">
-          <img 
-            src="/lovable-uploads/b84cbea5-5f92-4aca-9015-046830648343.png" 
-            alt="Media Coverage" 
-            className="w-full max-w-3xl mx-auto mb-8 opacity-60"
-          />
+          <h1 className="text-6xl md:text-8xl font-bold mb-8 text-gray-800 tracking-tight">
+            ZUVOMO
+          </h1>
+          <div className="w-32 h-1 bg-gradient-to-r from-cyan-400 to-cyan-500 mx-auto mb-8"></div>
         </div>
-        
-        <h1 className="text-5xl md:text-7xl font-bold mb-8 text-gray-800">
-          ZUVOMO
-        </h1>
         
         <h2 className="text-2xl md:text-4xl font-medium mb-8 text-gray-700">
           Professional Crypto Market Making
