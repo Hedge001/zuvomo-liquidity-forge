@@ -6,7 +6,17 @@ import ThreeBackground from './ThreeBackground';
 const Hero = () => {
   return (
     <section className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 relative overflow-hidden">
-      <ThreeBackground />
+      {/* Spline 3D Background */}
+      <div className="absolute inset-0 w-full h-full">
+        <iframe 
+          src='https://my.spline.design/radialpattern-b9QK3RbQTkvRJ9NrM3egXEFZ/' 
+          frameBorder='0' 
+          width='100%' 
+          height='100%'
+          className="w-full h-full"
+          style={{ pointerEvents: 'all' }}
+        />
+      </div>
       
       {/* Navigation with Logo */}
       <nav className="relative z-10 p-6">
