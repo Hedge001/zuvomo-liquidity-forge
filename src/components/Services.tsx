@@ -25,10 +25,10 @@ const Services = () => {
     <section className="py-20 px-6 bg-white">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-800">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-800 font-ubuntu">
             Our Market Making Services
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto font-ubuntu font-light">
             Professional liquidity solutions for the crypto ecosystem
           </p>
         </div>
@@ -45,11 +45,11 @@ const Services = () => {
                   <IconComponent className="h-8 w-8 text-cyan-600" />
                 </div>
                 
-                <h3 className="text-2xl font-bold text-gray-800 mb-4">
+                <h3 className="text-2xl font-bold text-gray-800 mb-4 font-ubuntu">
                   {service.title}
                 </h3>
                 
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-gray-600 leading-relaxed font-ubuntu font-light">
                   {service.description}
                 </p>
               </div>

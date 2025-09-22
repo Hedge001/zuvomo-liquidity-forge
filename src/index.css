@@ -51,6 +51,11 @@
     --sidebar-border: 220 13% 91%;
 
     --sidebar-ring: 217.2 91.2% 59.8%;
+    
+    /* Exchange color tokens */
+    --exchange-primary: 158 64% 52%;
+    --exchange-secondary: 158 64% 45%;
+    --exchange-accent: 158 64% 38%;
   }
 
   .dark {
@@ -89,6 +94,11 @@
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+    
+    /* Exchange color tokens */
+    --exchange-primary: 158 64% 52%;
+    --exchange-secondary: 158 64% 45%;
+    --exchange-accent: 158 64% 38%;
   }
 }
 
@@ -98,6 +108,6 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-ubuntu;
   }
 }

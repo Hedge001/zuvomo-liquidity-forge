@@ -7,16 +7,16 @@ const Stats = () => {
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center text-white">
           <div>
-            <div className="text-4xl md:text-6xl font-bold mb-2">2017</div>
-            <div className="text-lg md:text-xl uppercase tracking-wide">ACTIVE SINCE</div>
+            <div className="text-4xl md:text-6xl font-bold mb-2 font-ubuntu">2017</div>
+            <div className="text-lg md:text-xl uppercase tracking-wide font-ubuntu font-medium">ACTIVE SINCE</div>
           </div>
           <div>
-            <div className="text-4xl md:text-6xl font-bold mb-2">100+</div>
-            <div className="text-lg md:text-xl uppercase tracking-wide">CRYPTO PROJECTS</div>
+            <div className="text-4xl md:text-6xl font-bold mb-2 font-ubuntu">100+</div>
+            <div className="text-lg md:text-xl uppercase tracking-wide font-ubuntu font-medium">CRYPTO PROJECTS</div>
           </div>
           <div>
-            <div className="text-4xl md:text-6xl font-bold mb-2">$500M+</div>
-            <div className="text-lg md:text-xl uppercase tracking-wide">VOLUME GENERATED</div>
+            <div className="text-4xl md:text-6xl font-bold mb-2 font-ubuntu">$500M+</div>
+            <div className="text-lg md:text-xl uppercase tracking-wide font-ubuntu font-medium">VOLUME GENERATED</div>
           </div>
         </div>
       </div>

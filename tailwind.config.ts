@@ -19,6 +19,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'ubuntu': ['Ubuntu', 'sans-serif'],
+				'sans': ['Ubuntu', 'system-ui', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -62,6 +66,11 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				'exchange': {
+					'primary': 'hsl(var(--exchange-primary))',
+					'secondary': 'hsl(var(--exchange-secondary))',
+					'accent': 'hsl(var(--exchange-accent))',
 				}
 			},
 			borderRadius: {
