@@ -1,7 +1,6 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import ThreeBackground from './ThreeBackground';
 
 const Hero = () => {
   return (
